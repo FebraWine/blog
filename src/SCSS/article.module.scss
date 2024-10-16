@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 'Inter UI';
+  src: url('../assets/fonts/Inter-UI-Regular.otf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  font-family: 'Inter UI';
+  max-width: 938px;
+  height: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 26px;
+
+  .wrapper {
+    position: relative;
+    padding: 15px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 12px 0px #00000026;
+  }
+
+  .leftSide {
+    margin-right: auto;
+
+    .heart {
+      margin-left: 10px;
+      margin-right: 5px;
+      margin-top: 5px;
+    }
+
+    .count {
+      display: block;
+      padding-top: 2px;
+      font-family: 'Inter UI';
+      font-size: 12px;
+      line-height: 22px;
+      text-align: left;
+    }
+
+    .title {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 28px;
+      text-align: left;
+      margin: 0;
+      padding: 0;
+      color: #1890ff;
+      cursor: pointer;
+    }
+  }
+
+  .rightSide {
+    margin-left: auto;
+
+    .avatar {
+      width: 46px;
+      height: 46px;
+      opacity: 0px;
+      border-radius: 50%;
+    }
+
+    .author {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 28px;
+      text-align: left;
+      margin-right: 15px;
+      color: #000000d9;
+    }
+
+    .date {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 22px;
+      text-align: left;
+      margin-right: 15px;
+      color: #00000080;
+    }
+  }
+
+  .admin {
+    padding-top: 10px;
+    right: 15px;
+    position: absolute;
+
+    .side {
+      display: 'flex';
+      position: absolute;
+      right: 60px;
+    }
+
+    .edit {
+      font-family: 'Inter UI';
+      font-size: 14px;
+      line-height: 22px;
+      text-align: center;
+      width: 65.23px;
+      height: 31.1px;
+      border-radius: 5px;
+      border: 1px solid #52c41a;
+      color: #52c41a;
+    }
+
+    .delete {
+      font-family: 'Inter UI';
+      font-size: 14px;
+      line-height: 22px;
+      text-align: center;
+      width: 78px;
+      height: 31.1px;
+      margin-right: 15px;
+      border-radius: 5px;
+      border: 1px solid #f5222d;
+      color: #f5222d;
+    }
+  }
+
+  .text {
+    font-family: 'Inter UI';
+    max-width: 682px;
+    max-height: 25px;
+    padding-top: 15px;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 22px;
+    text-align: left;
+    color: #000000bf;
+  }
+
+  .markdown {
+    font-family: 'Inter UI';
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    color: #000000bf;
+  }
+}

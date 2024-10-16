@@ -1,0 +1,22 @@
+// Inter-ExtraLight.otf
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../assets/fonts/Inter-Light.otf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+.tag {
+  font-family: 'Inter';
+  display: inline-block;
+  margin-right: 7px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+  text-align: left;
+  padding: 3px;
+  color: #00000080;
+  border: 1px solid #00000080;
+  border-radius: 2px;
+}
