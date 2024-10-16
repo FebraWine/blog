@@ -5,50 +5,6 @@
   font-style: normal;
 }
 
-@keyframes shake {
-  0% {
-    transform: skewX(-10deg);
-  }
-
-  25% {
-    transform: skewX(10deg);
-  }
-
-  50% {
-    transform: skewX(-10deg);
-  }
-
-  75% {
-    transform: skewX(10deg);
-  }
-
-  100% {
-    transform: skewX(-10deg);
-  }
-}
-
-@keyframes bounce {
-  0% {
-    bottom: 0;
-  }
-
-  25% {
-    bottom: 2px;
-  }
-
-  50% {
-    bottom: -2px;
-  }
-
-  75% {
-    bottom: 2px;
-  }
-
-  100% {
-    bottom: -2px;
-  }
-}
-
 a {
   text-decoration: none;
 }
@@ -104,7 +60,6 @@ button {
 
     .out:hover {
       position: relative;
-      animation: bounce 0.4s ease-out;
     }
 
     .create {
@@ -119,8 +74,6 @@ button {
     }
 
     .create:hover {
-      animation: shake 0.4s ease-out;
-      border: 2px solid green;
       color: green;
     }
 
