@@ -42,9 +42,9 @@ export default function Article(props) {
   }
 
   const handleLike = () => {
-    if (!like) {
+    if (!like && token) {
       dispatch(postLike([token, slug]))
-    } else {
+    } else if (token) {
       dispatch(deleteLike([token, slug]))
     }
   }
