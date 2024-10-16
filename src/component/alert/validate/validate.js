@@ -20,11 +20,9 @@ export default function Validate(props) {
         onOpenChange={() => null}
         onConfirm={handleClick}
       >
-        <a href="/">
-          <button className={style.delete} type="button">
-            Delete
-          </button>
-        </a>
+        <button className={style.delete} type="button">
+          Delete
+        </button>
       </Popconfirm>
     </div>
   )
